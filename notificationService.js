@@ -6,16 +6,20 @@ const { notificationService } = NativeModules;
 
 export default notificationService;
 
+
 /*
-import notificationService from '../../notificationService'
-
-
- <View >
-        <TouchableOpacity  onPress={() => notificationService.startService("swagman yo")}>
-          <Text >Start</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => notificationService.stopService()}>
-          <Text >Stop</Text>
-        </TouchableOpacity>
-      </View>
-      */
+import notificationService from './notificationService'
+    
+    //params: key,text,iv
+    notificationService.encrypt("1111111111111111111111111111111111111111111111111111111111111111",
+    "swag",
+    "22222222222222222222222222222222")
+    .then(res => console.log(res))
+    .catch(e =>{console.log(e)})
+    
+    //params: key,text,iv
+    notificationService.decrypt("1111111111111111111111111111111111111111111111111111111111111111",
+    "Ne7jHawro20dRu3VWEbW0A==\n",
+    "22222222222222222222222222222222")
+    .then(res => console.log(res))
+    .catch(e =>{console.log(e)})*/
