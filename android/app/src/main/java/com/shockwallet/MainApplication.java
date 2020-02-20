@@ -56,7 +56,8 @@ public class MainApplication extends Application implements ReactApplication {
             new AsyncStoragePackage(),
             new RNCameraPackage(),
             new SvgPackage(),
-            new NotificationPackage()
+            new NotificationPackage(),
+            new SocketPackage()
       );
     }
 
