@@ -88,7 +88,8 @@ export default class QRScanner extends React.Component {
     if (type === 'receive') {
       return {
         title: 'Scan Public Key',
-        description: "Point your camera at a ShockWallet Contact's public key",
+        description:
+          "Point your camera at a Groestlcoin ShockWallet Contact's public key",
       }
     }
 

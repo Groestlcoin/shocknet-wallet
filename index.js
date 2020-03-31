@@ -35,7 +35,7 @@ import { WALLET_OVERVIEW } from './app/screens/WalletOverview'
 import * as Wallet from './app/services/wallet'
 import * as Auth from './app/services/auth'
 
-Logger.setTag('ShockWallet')
+Logger.setTag('GroestlcoinShockWallet')
 Logger.setFileLogEnabled(true)
 Logger.setConsoleLogEnabled(__DEV__)
 if (Platform.OS === 'android') {

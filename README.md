@@ -1,9 +1,9 @@
 
-# ShockWallet Alpha
+# Groestlcoin ShockWallet Alpha
 
-ShockWallet connects to a remote node and leverages [GUN](https://github.com/amark/gun) for a decentralized social layer.
+Groestlcoin ShockWallet connects to a remote node and leverages [GUN](https://github.com/amark/gun) for a decentralized social layer.
 
-Requires [Shock API](https://github.com/shocknet/api) backend, and [LND](https://github.com/lightningnetwork/lnd)
+Requires [Shock API](https://github.com/Groestlcoin/shocknet-api) backend, and [LND](https://github.com/Groestlcoin/lnd)
 
 ## Features:
 
@@ -16,7 +16,7 @@ Requires [Shock API](https://github.com/shocknet/api) backend, and [LND](https:/
 
 ## [Download Android APK](https://github.com/shocknet/wallet/releases/download/pre2/app-release.apk)
 
-_Node installer available at [shocknet/Wizard](https://github.com/shocknet/wizard)_
+_Node installer available at [Groestlcoin/ShockWizard](https://github.com/Groestlcoin/ShockWizard)_
 
 
 ### Build from source
@@ -43,3 +43,4 @@ Help Wanted
 
 [ISC License](https://opensource.org/licenses/ISC)
 © 2020 [Shock Network, Inc.](http://shock.network)
+© 2020 [Groestlcoin Developers](http://groestlcoin.org)
