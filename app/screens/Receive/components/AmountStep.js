@@ -45,7 +45,7 @@ const AmountStep = ({
               value: 'sats',
             },
             {
-              value: 'BTC',
+              value: 'GRS',
             },
           ]}
           onChangeText={setUnitSelected}

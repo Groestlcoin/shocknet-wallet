@@ -87,7 +87,7 @@ export default class UnifiedTransaction extends React.Component {
 
     if (Wallet.isTransaction(unifiedTransaction)) {
       hash = unifiedTransaction.tx_hash
-      description = 'BTC Chain Transaction'
+      description = 'GRS Chain Transaction'
       value = unifiedTransaction.amount
       timestamp = Number(unifiedTransaction.time_stamp)
 
@@ -97,7 +97,7 @@ export default class UnifiedTransaction extends React.Component {
 
     const formattedTimestamp = moment.unix(timestamp).fromNow()
     const convertedBalance = (
-      Math.round(btcConvert(value, 'Satoshi', 'BTC') * USDRate * 100) / 100
+      Math.round(btcConvert(value, 'Gro', 'GRS') * USDRate * 100) / 100
     ).toLocaleString()
 
     return (

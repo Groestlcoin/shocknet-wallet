@@ -169,7 +169,7 @@ class SendStep extends Component {
             <View style={styles.recipientContainer}>
               {this.renderQR()}
               <View style={styles.QRTypeContainer}>
-                <Text style={styles.invoiceMode}>BTC</Text>
+                <Text style={styles.invoiceMode}>GRS</Text>
                 <Switch
                   trackColor={{
                     false: CSS.Colors.CAUTION_YELLOW,

@@ -1,12 +1,12 @@
 import Big from 'big.js'
 
 const Units = {
-  BTC: new Big(1),
-  mBTC: new Big(0.001),
-  μBTC: new Big(0.000001),
-  bit: new Big(0.000001),
-  Satoshi: new Big(0.00000001),
-  sat: new Big(0.00000001),
+  GRS: new Big(1),
+  mGRS: new Big(0.001),
+  μGRS: new Big(0.000001),
+  groestl: new Big(0.000001),
+  Gro: new Big(0.00000001),
+  gro: new Big(0.00000001),
 }
 
 /**

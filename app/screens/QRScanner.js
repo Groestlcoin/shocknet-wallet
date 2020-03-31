@@ -81,7 +81,7 @@ export default class QRScanner extends React.Component {
       return {
         title: 'SCAN ADDRESS OR INVOICE',
         description:
-          'Point your camera at a BTC Address or Lightning Invoice QR Code',
+          'Point your camera at a GRS Address or Lightning Invoice QR Code',
       }
     }
 

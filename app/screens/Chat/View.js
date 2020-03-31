@@ -477,7 +477,7 @@ export default class ChatView extends React.Component {
               <TouchableWithoutFeedback>
                 <View style={this.actionSheetStyle}>
                   <Text style={styles.action} onPress={this.onPressSendBTC}>
-                    Send BTC
+                    Send GRS
                   </Text>
                   <Pad amount={10} />
                   <Text style={styles.action} onPress={this.onPressReceive}>

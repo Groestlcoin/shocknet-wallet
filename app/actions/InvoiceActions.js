@@ -88,7 +88,7 @@ export const setInvoiceMode = invoiceMode => dispatch => {
 
 /**
  * Set Unit Selected
- * @param {'BTC' | 'sats' | 'Bits'} unit
+ * @param {'GRS' | 'sats' | 'Bits'} unit
  * @returns {import('redux-thunk').ThunkAction<void, {}, {}, import('redux').AnyAction>}
  */
 export const setUnitSelected = unit => dispatch => {

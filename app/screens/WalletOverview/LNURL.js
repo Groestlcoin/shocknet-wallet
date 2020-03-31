@@ -271,7 +271,7 @@ export default class LNURL extends React.Component {
           <Text style={CSS.styles.textBold}>
             {LNURLdata.maxWithdrawable / 1000}
           </Text>{' '}
-          Satoshi
+          Gro
         </Text>
         <Pad amount={10} />
         <ShockInput
@@ -312,7 +312,7 @@ export default class LNURL extends React.Component {
           <Text style={CSS.styles.textBold}>
             {LNURLdata.minSendable / 1000}{' '}
           </Text>
-          Satoshi
+          Gro
         </Text>
         <Pad amount={10} />
 
@@ -324,7 +324,7 @@ export default class LNURL extends React.Component {
           <Text style={CSS.styles.textBold}>
             {LNURLdata.maxSendable / 1000}{' '}
           </Text>
-          Satoshi
+          Gro
         </Text>
 
         <Pad amount={10} />

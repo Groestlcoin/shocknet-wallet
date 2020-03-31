@@ -327,7 +327,7 @@ class SendScreen extends Component {
     const sanitizedQR = this.sanitizeQR(data)
     Logger.log('QR Value:', sanitizedQR)
     Logger.log('Lightning Invoice?', this.isLightningInvoice(sanitizedQR))
-    Logger.log('BTC Address?', this.isBTCAddress(sanitizedQR))
+    Logger.log('GRS Address?', this.isBTCAddress(sanitizedQR))
     this.onChange('error')('')
     if (this.isLightningInvoice(sanitizedQR)) {
       const data = await decodePaymentRequest(sanitizedQR)
@@ -450,7 +450,7 @@ class SendScreen extends Component {
                       value: 'sats',
                     },
                     {
-                      value: 'BTC',
+                      value: 'GRS',
                     },
                   ]}
                   disabled={!editable}

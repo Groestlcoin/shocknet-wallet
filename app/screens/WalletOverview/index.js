@@ -101,10 +101,10 @@ import * as Cache from '../../services/cache'
  * @prop {number} sendToBTCAmount
  * @prop {boolean} scanningBTCAddressQR
  * @prop {boolean} displayingSendBTCResultDialog
- * @prop {boolean} sendingBTC True while sending a BTC transaction is in
+ * @prop {boolean} sendingBTC True while sending a GRS transaction is in
  * progress.
  * @prop {string|null} sentBTCErr
- * @prop {string} sentBTCTXID Holds the transaction ID after sending BTC.
+ * @prop {string} sentBTCTXID Holds the transaction ID after sending GRS.
  *
  * @prop {ShockUser|null} payShockInvoiceUserData
  * @prop {boolean} displayingPayLightningInvoiceDialog
@@ -633,7 +633,7 @@ class WalletOverview extends Component {
   }
 
   //////////////////////////////////////////////////////////////////////////////
-  // SEND BTC //////////////////////////////////////////////////////////////////
+  // SEND GRS //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////
   /**
    * @param {null|{address : null|string,amount :null|number}} destination
@@ -788,7 +788,7 @@ class WalletOverview extends Component {
   }
 
   //////////////////////////////////////////////////////////////////////////////
-  // /SEND BTC /////////////////////////////////////////////////////////////////
+  // /SEND GRS /////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////
 
   //////////////////////////////////////////////////////////////////////////////
@@ -1012,12 +1012,12 @@ class WalletOverview extends Component {
   //////////////////////////////////////////////////////////////////////////////
 
   sendChoiceToHandler = {
-    'Send to BTC Address': this.sendToBTCAddress,
+    'Send to GRS Address': this.sendToBTCAddress,
     'Pay Lightning Invoice': this.payLightningInvoice,
   }
 
   receiveDialogChoiceToHandler = {
-    'BTC Address': this.displayBTCAddress,
+    'GRS Address': this.displayBTCAddress,
     'Generate a Lightning Invoice': this.displayCreateInvoiceDialog,
   }
 
@@ -1300,7 +1300,7 @@ class WalletOverview extends Component {
     const isConnected = this.context
     const convertedBalance = (
       Math.round(
-        btcConvert(totalBalance || '0', 'Satoshi', 'BTC') * USDRate * 100,
+        btcConvert(totalBalance || '0', 'Gro', 'GRS') * USDRate * 100,
       ) / 100
     )
       .toFixed(2)
@@ -1489,7 +1489,7 @@ class WalletOverview extends Component {
               value={(receivingBTCAddress)}
             /> */}
             <Pad amount={10} />
-            <Text>Scan To Send To This BTC Address</Text>
+            <Text>Scan To Send To This GRS Address</Text>
           </View>
         </BasicDialog>
 
@@ -1518,7 +1518,7 @@ class WalletOverview extends Component {
               value={(receivingOlderFormatBTCAddress)}
             /> */}
             <Pad amount={10} />
-            <Text>Scan To Send To This BTC Address</Text>
+            <Text>Scan To Send To This GRS Address</Text>
           </View>
         </BasicDialog>
 
@@ -1595,7 +1595,7 @@ class WalletOverview extends Component {
         >
           <View>
             <ShockInput
-              placeholder="BTC Address"
+              placeholder="GRS Address"
               onChangeText={this.onChangeSendBTCAddress}
               value={sendToBTCAddress}
             />
