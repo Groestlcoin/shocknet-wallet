@@ -144,7 +144,7 @@ export default class PaymentDialog extends React.Component {
                   <ShockInput
                     keyboardType="number-pad"
                     onChangeText={this.onChangeAmount}
-                    placeholder="Amount (in sats)"
+                    placeholder="Amount (in gros)"
                     value={
                       amount === 0
                         ? undefined // allow placeholder to show

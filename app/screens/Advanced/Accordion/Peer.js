@@ -40,10 +40,10 @@ const _Peer = ({ data }) => ((
     </View>
     <View>
       <Text style={styles.transactionTime}>
-        Sent: {parseFloat(data.sat_sent).toFixed(2)} sats
+        Sent: {parseFloat(data.sat_sent).toFixed(2)} gros
       </Text>
       <Text style={styles.transactionTime}>
-        Received: {parseFloat(data.sat_recv).toFixed(2)} sats
+        Received: {parseFloat(data.sat_recv).toFixed(2)} gros
       </Text>
     </View>
   </View>

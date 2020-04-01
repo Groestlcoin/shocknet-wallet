@@ -43,12 +43,12 @@ const _ChannelAccordion = ({ data }) => ((
       <View style={styles.channelStats}>
         <View style={[styles.channelStat, styles.sendableSatsBorder]}>
           <Text style={styles.channelStatText}>
-            Sendable: {data.local_balance} sats
+            Sendable: {data.local_balance} gros
           </Text>
         </View>
         <View style={[styles.channelStat, CSS.styles.alignItemsEnd]}>
           <Text style={styles.channelStatText}>
-            Receivable: {data.remote_balance} sats
+            Receivable: {data.remote_balance} gros
           </Text>
         </View>
       </View>

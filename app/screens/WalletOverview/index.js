@@ -968,7 +968,7 @@ class WalletOverview extends Component {
             <ShockInput
               keyboardType="number-pad"
               onChangeText={this.onChangeInvoiceAmt}
-              placeholder="Amount in sats."
+              placeholder="Amount in gros."
               value={invoiceAmt.toString()}
             />
           </React.Fragment>
@@ -1325,7 +1325,7 @@ class WalletOverview extends Component {
           <Text style={styles.balanceValue}>
             {totalBalance.replace(/(\d)(?=(\d{3})+$)/g, '$1,')}
           </Text>{' '}
-          <Text style={styles.balanceCurrency}>sats</Text>
+          <Text style={styles.balanceCurrency}>gros</Text>
         </Text>
         <Text
           style={[styles.balanceUSDValue, !isConnected && styles.yellowText]}
@@ -1538,7 +1538,7 @@ class WalletOverview extends Component {
           <ShockInput
             keyboardType="number-pad"
             onChangeText={this.createInvoiceDialogAmountOnChange}
-            placeholder="Amount (in sats)"
+            placeholder="Amount (in gros)"
             value={
               createInvoiceAmount === 0
                 ? undefined // allow placeholder to show
@@ -1605,7 +1605,7 @@ class WalletOverview extends Component {
             <ShockInput
               keyboardType="number-pad"
               onChangeText={this.onChangeSendBTCAmount}
-              placeholder="Amount in sats"
+              placeholder="Amount in gros"
               value={
                 sendToBTCAmount === 0 ? undefined : sendToBTCAmount.toString()
               }
@@ -1744,7 +1744,7 @@ class WalletOverview extends Component {
             <Pad amount={10} />
 
             {createInvoiceAmount === 0 ? null : (
-              <Text>{`For an amount of: ${createInvoiceAmount} sats`}</Text>
+              <Text>{`For an amount of: ${createInvoiceAmount} gros`}</Text>
             )}
 
             <ShockButton title="SEND" onPress={this.confirmSendToShockUser} />

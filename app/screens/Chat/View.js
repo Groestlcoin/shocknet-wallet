@@ -554,7 +554,7 @@ export default class ChatView extends React.Component {
           <ShockInput
             keyboardType="number-pad"
             onChangeText={this.onChangeInvoiceAmount}
-            placeholder="Amount (in sats)"
+            placeholder="Amount (in gros)"
             value={
               sendInvoiceAmount === 0
                 ? undefined // allow placeholder to show

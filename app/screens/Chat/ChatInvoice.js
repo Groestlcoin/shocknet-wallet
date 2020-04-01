@@ -89,7 +89,7 @@ export default class ChatMessage extends React.Component {
       case 'FAILED': {
         return (
           <View>
-            <Text style={styles.body}>{amount + ' sats'}</Text>
+            <Text style={styles.body}>{amount + ' gros'}</Text>
             <Text>Payment failed.</Text>
           </View>
         )
@@ -98,7 +98,7 @@ export default class ChatMessage extends React.Component {
       case 'IN_FLIGHT': {
         return (
           <View>
-            <Text style={styles.body}>{amount + ' sats'}</Text>
+            <Text style={styles.body}>{amount + ' gros'}</Text>
             <Text>Payment being processed</Text>
           </View>
         )
@@ -107,7 +107,7 @@ export default class ChatMessage extends React.Component {
       case 'PAID': {
         return (
           <View>
-            <Text style={styles.body}>{amount + ' sats'}</Text>
+            <Text style={styles.body}>{amount + ' gros'}</Text>
             <Entypo name="check" />
           </View>
         )
@@ -116,7 +116,7 @@ export default class ChatMessage extends React.Component {
       case 'UNKNOWN': {
         return (
           <View>
-            <Text style={styles.body}>{amount + ' sats'}</Text>
+            <Text style={styles.body}>{amount + ' gros'}</Text>
             <Text>Unknown payment status</Text>
           </View>
         )
@@ -125,7 +125,7 @@ export default class ChatMessage extends React.Component {
       case 'UNPAID': {
         return (
           <View>
-            <Text style={styles.body}>{amount + ' sats'}</Text>
+            <Text style={styles.body}>{amount + ' gros'}</Text>
             {!outgoing && <Text>Press here to Pay</Text>}
           </View>
         )

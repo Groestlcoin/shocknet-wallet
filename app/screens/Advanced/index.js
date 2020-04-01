@@ -595,7 +595,7 @@ class AdvancedScreen extends Component {
                           '$1,',
                         )
                       : 'Loading...'}{' '}
-                    sats
+                    gros
                   </Text>
                   <Text style={styles.statTextSecondary}>
                     {wallet.USDRate
@@ -617,7 +617,7 @@ class AdvancedScreen extends Component {
                           '$1,',
                         )
                       : 'Loading...'}{' '}
-                    sats
+                    gros
                   </Text>
                   <Text style={styles.statTextSecondary}>
                     {wallet.USDRate
