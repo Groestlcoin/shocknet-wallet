@@ -56,7 +56,7 @@ export default /** @type {React.FC<Props>} */ (React.memo(
 
             <Pad amount={12} />
             {/* S H O C K W A L L E T*/}
-            <Text style={xStyles.logoText}>SHOCKWALLET</Text>
+            <Text style={xStyles.logoText}>GROESTLCOIN SHOCKWALLET</Text>
           </View>
         </View>
 
