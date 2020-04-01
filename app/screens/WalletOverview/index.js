@@ -771,7 +771,9 @@ class WalletOverview extends Component {
 
   sentBTCResultChoiceToHandler = {
     'View in BlockChain': () => {
-      Linking.openURL(`https://blockstream.info/tx/${this.state.sentBTCTXID}`)
+      Linking.openURL(
+        `https://esplora.groestlcoin.org/tx/${this.state.sentBTCTXID}`,
+      )
     },
     'Copy Transaction ID to Clipboard': () => {
       Clipboard.setString(this.state.sentBTCTXID)

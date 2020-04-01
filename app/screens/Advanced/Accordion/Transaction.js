@@ -9,7 +9,7 @@ import * as CSS from '../../../res/css'
 /** @type {number} */
 //@ts-ignore
 const paymentIcon = require('../../../assets/images/payment-icon.png')
-const blockExplorer = 'https://blockstream.info/tx/'
+const blockExplorer = 'https://esplora.groestlcoin.org/tx/'
 
 /**
  * @typedef {object} Props
