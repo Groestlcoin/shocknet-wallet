@@ -25,7 +25,7 @@ export default /** @type {React.FC<Props>} */ (React.memo(
 const styles = StyleSheet.create({
   btn: {
     height: 64,
-    backgroundColor: CSS.Colors.ORANGE,
+    backgroundColor: CSS.Colors.GRS_DARK_PURPLE,
     borderRadius: 100,
     elevation: 3,
     alignItems: 'center',

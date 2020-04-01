@@ -197,7 +197,7 @@ export default class ChatsView extends React.Component {
             />
           </View>
           <Icon
-            color={Colors.ORANGE}
+            color={Colors.GRS_DARK_PURPLE}
             name="chevron-right"
             size={28}
             type="font-awesome"
@@ -232,7 +232,7 @@ export default class ChatsView extends React.Component {
           />
         </View>
         <Icon
-          color={Colors.ORANGE}
+          color={Colors.GRS_DARK_PURPLE}
           name="chevron-right"
           size={28}
           type="font-awesome"
@@ -288,7 +288,7 @@ export default class ChatsView extends React.Component {
           />
         </View>
         <Icon
-          color={Colors.ORANGE}
+          color={Colors.GRS_DARK_PURPLE}
           name="chevron-right"
           size={28}
           type="font-awesome"

@@ -98,7 +98,7 @@ export default class ChatMessage extends React.Component {
                   ? `${ZERO},${THREE} ${FOUR},${ZERO} ${FIVE},${FIVE}`
                   : `${ZERO},${FIVE} ${UNIT},${ZERO} ${FIVE},${THREE}`
               }
-              fill={outgoing ? Colors.ORANGE : Colors.BLUE_MEDIUM_DARK}
+              fill={outgoing ? Colors.GRS_DARK_PURPLE : Colors.BLUE_MEDIUM_DARK}
               strokeWidth="0"
             />
           </Svg>
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
   },
 
   bubbleOutgoing: {
-    backgroundColor: Colors.ORANGE,
+    backgroundColor: Colors.GRS_DARK_PURPLE,
   },
 
   body: {

@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     color: CSS.Colors.TEXT_GRAY,
   },
   transactionUSDText: {
-    color: CSS.Colors.ORANGE,
+    color: CSS.Colors.TEXT_WHITE,
   },
   transactionTime: {
     textAlign: 'right',

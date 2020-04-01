@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
     width: 35,
     height: 35,
     flexShrink: 0,
-    backgroundColor: CSS.Colors.ORANGE,
+    backgroundColor: CSS.Colors.GRS_DARK_PURPLE,
     borderRadius: 100,
     alignItems: 'center',
     justifyContent: 'center',

@@ -1834,7 +1834,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     letterSpacing: 2,
     fontFamily: 'Montserrat-600',
-    color: CSS.Colors.TEXT_ORANGE,
+    color: CSS.Colors.TEXT_WHITE,
   },
   container: {
     backgroundColor: CSS.Colors.BACKGROUND_WHITE,
@@ -1863,7 +1863,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 100,
-    backgroundColor: CSS.Colors.ORANGE,
+    backgroundColor: CSS.Colors.GRS_DARK_PURPLE,
   },
   actionButtonText: {
     color: CSS.Colors.TEXT_WHITE,

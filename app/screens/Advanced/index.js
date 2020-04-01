@@ -585,7 +585,7 @@ class AdvancedScreen extends Component {
             <View style={styles.statsContainer}>
               <View style={xStyles.channelBalanceContainer}>
                 <View style={styles.statIcon}>
-                  <EntypoIcons name="flash" color="#F5A623" size={20} />
+                  <EntypoIcons name="flash" color="#FFFFFF" size={20} />
                 </View>
                 <View>
                   <Text style={styles.statTextPrimary}>
@@ -607,7 +607,7 @@ class AdvancedScreen extends Component {
               </View>
               <View style={styles.stat}>
                 <View style={styles.statIcon}>
-                  <EntypoIcons name="link" color="#F5A623" size={20} />
+                  <EntypoIcons name="link" color="#FFFFFF" size={20} />
                 </View>
                 <View>
                   <Text style={styles.statTextPrimary}>
@@ -835,7 +835,7 @@ const styles = StyleSheet.create({
     fontWeight: '900',
   },
   statTextSecondary: {
-    color: CSS.Colors.ORANGE,
+    color: CSS.Colors.TEXT_WHITE,
     fontSize: 14,
   },
   accordionsContainer: {

@@ -29,7 +29,7 @@ export const Colors = {
   BORDER_WHITE: '#FFFFFF',
   BORDER_NEAR_WHITE: '#DDD',
   BORDER_GRAY: '#E0D3D3',
-  FUN_BLUE: '#294f93',
+  FUN_BLUE: '#006593',
   AVATAR_BG: '#b87763',
   BLUE_MEDIUM_DARK: '#294F93',
   BLUE_DARK: '#2E4674',
@@ -65,6 +65,10 @@ export const Colors = {
   TRANSPARENT_INPUT: 'rgba(0,0,0,0.05)',
   LOADING_BACKDROP: 'rgba(0,0,0,0.25)',
   GOLD: '#f2a900',
+  GRS_PURPLE: '#006593',
+  GRS_DARK_PURPLE: '#005E78',
+  GRS_MED_PURPLE: '#00618F',
+  GRS_LIGHT_PURPLE: '#00A5BD',
 }
 
 export const styles = StyleSheet.create({

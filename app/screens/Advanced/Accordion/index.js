@@ -183,7 +183,7 @@ export default class Accordion extends Component {
           <LinearGradient
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 0 }}
-            colors={open ? ['#F5A623', '#F5A623'] : ['#194B93', '#4285B9']}
+            colors={open ? ['#00A5BD', '#00A5BD'] : ['#005E78', '#006593']}
             style={[
               styles.accordionHeader,
               !open && !hideBottomBorder && styles.accordionHeaderBottomBorder,
@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
     width: 45,
     height: 45,
     borderRadius: 100,
-    backgroundColor: CSS.Colors.ORANGE,
+    backgroundColor: CSS.Colors.GRS_DARK_PURPLE,
     alignItems: 'center',
     justifyContent: 'center',
     elevation: 3,

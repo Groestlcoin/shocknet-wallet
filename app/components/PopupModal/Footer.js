@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     flexShrink: 0,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: Colors.GOLD,
+    backgroundColor: Colors.GRS_DARK_PURPLE,
   },
   modalFooterText: {
     fontFamily: 'Montserrat-700',

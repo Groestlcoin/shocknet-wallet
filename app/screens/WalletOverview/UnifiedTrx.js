@@ -97,7 +97,7 @@ class UnifiedTransactions extends React.Component {
       return (
         <>
           <Text style={styles.listTitle}>Recent Transactions</Text>
-          <ActivityIndicator size="large" color={CSS.Colors.ORANGE} />
+          <ActivityIndicator size="large" color={CSS.Colors.GRS_DARK_PURPLE} />
         </>
       )
     }

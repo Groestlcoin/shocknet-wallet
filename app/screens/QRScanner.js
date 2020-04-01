@@ -202,7 +202,7 @@ const styles = StyleSheet.create({
     height: 200,
     borderWidth: 2,
     borderStyle: 'solid',
-    borderColor: CSS.Colors.ORANGE,
+    borderColor: CSS.Colors.GRS_DARK_PURPLE,
     borderRadius: 5,
     transform: [{ translateX: -90 }, { translateY: -100 }],
     zIndex: 100,

@@ -36,7 +36,7 @@ const DEFAULT_ICON_STYLE = { marginRight: 8 }
 export default class ShockButton extends React.Component {
   static defaultProps = {
     title: '',
-    color: CSS.Colors.ORANGE,
+    color: CSS.Colors.GRS_DARK_PURPLE,
   }
 
   onPress = () => {

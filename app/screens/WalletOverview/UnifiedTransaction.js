@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
   },
 
   USDValue: {
-    color: CSS.Colors.TEXT_ORANGE,
+    color: CSS.Colors.TEXT_WHITE,
     fontFamily: 'Montserrat-700',
     fontSize: 10,
   },
