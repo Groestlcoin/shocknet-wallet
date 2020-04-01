@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 1371.58 775.29"
+   version="1.1"
+   id="svg23"
+   sodipodi:docname="wizard-bg.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>wizard-bg</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview25"
+     showgrid="false"
+     inkscape:zoom="0.24716022"
+     inkscape:cx="685.78998"
+     inkscape:cy="387.64499"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg23" />
+  <defs
+     id="defs11">
+    <style
+       id="style2">.cls-1{fill:url(#Degradado_sin_nombre_3);}.cls-2{fill:url(#Degradado_sin_nombre_3-2);}.cls-3{fill:url(#Degradado_sin_nombre_3-3);}</style>
+    <linearGradient
+       id="Degradado_sin_nombre_3"
+       x1="1456.28"
+       y1="2787.09"
+       x2="2231.57"
+       y2="2787.09"
+       gradientTransform="translate(3472.88 -1456.28) rotate(90)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#2A6372"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#377E96"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="Degradado_sin_nombre_3-2"
+       x1="1456.28"
+       y1="2785.11"
+       x2="2231.57"
+       y2="2785.11"
+       xlink:href="#Degradado_sin_nombre_3" />
+    <linearGradient
+       id="Degradado_sin_nombre_3-3"
+       x1="380.47"
+       y1="-873.07"
+       x2="1759.91"
+       y2="-873.07"
+       gradientTransform="matrix(1,-0.01,0.01,1.22,-377.38,1510.07)"
+       xlink:href="#Degradado_sin_nombre_3" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Degradado_sin_nombre_3"
+       id="linearGradient837"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(90,2464.58,1008.3)"
+       x1="1456.28"
+       y1="2787.09"
+       x2="2231.57"
+       y2="2787.09" />
+  </defs>
+  <title
+     id="title13">wizard-bg</title>
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     transform="matrix(0,0.59347614,-0.50561725,0,613.27179,-39.965934)">
+    <g
+       id="Layer_1-2"
+       data-name="Layer 1">
+      <path
+         class="cls-1"
+         d="M 1371.58,0 H 0 v 775.29 h 4 c 33.3,-72.66 150.09,-466.73 339.49,-328 208.27,152.54 305.63,127.42 390,-33.85 84.37,-161.27 165.26,-289.21 247.31,-280.87 82.05,8.34 196.89,189 235.84,179.54 38.95,-9.46 130.73,-99.71 153,-224.07 l 1.89,687.25 v 0 z"
+         id="path15"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient837)" />
+      <path
+         class="cls-2"
+         d="M 1216.64,312.11 C 1177.64,321.55 1062.85,140.9 980.8,132.57 898.75,124.24 817.94,252.16 733.52,413.43 649.1,574.7 551.74,599.82 343.52,447.28 154.07,308.56 37.28,702.63 4,775.29 H 1371.55 L 1369.66,88 c -22.29,124.4 -114.07,214.67 -153.02,224.11 z"
+         id="path17"
+         inkscape:connector-curvature="0"
+         style="fill:url(#Degradado_sin_nombre_3-2)" />
+      <path
+         class="cls-3"
+         d="M 1216.64,312.11 C 1177.64,321.55 1062.85,140.9 980.8,132.57 898.75,124.24 817.94,252.16 733.52,413.43 649.1,574.7 551.74,599.82 343.52,447.28 154.07,308.56 37.28,702.63 4,775.29 H 1371.55 L 1369.66,88 c -22.29,124.4 -114.07,214.67 -153.02,224.11 z"
+         id="path19"
+         inkscape:connector-curvature="0"
+         style="fill:url(#Degradado_sin_nombre_3-3)" />
+    </g>
+  </g>
+</svg>
