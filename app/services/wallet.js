@@ -317,10 +317,11 @@ export const isTransaction = item => {
  * @returns {Promise<number>}
  */
 export const USDExchangeRate = async () => {
-  const endpoint = 'https://api.coindesk.com/v1/bpi/currentprice.json'
+  const endpoint =
+    'https://api.coingecko.com/api/v3/coins/groestlcoin?localization=false&community_data=false&developer_data=false&sparkline=false'
   const { data } = await Http.get(endpoint)
 
-  const er = data.bpi.USD.rate_float
+  const er = data.market_data.current_price.usd
 
   if (typeof er !== 'number') {
     throw new TypeError('Exchange rate obtained from server not a number')
