@@ -67,3 +67,5 @@ shim.js
 
 # CocoaPods
 /ios/Pods/
+android/app/release/output.json
+android/app/release/*.apk
