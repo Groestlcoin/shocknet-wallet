@@ -95,7 +95,8 @@ export default class QRScanner extends React.Component {
 
     return {
       title: 'SCAN NODE IPS',
-      description: 'Point your camera at a ShockWizard QR Code to set your IP',
+      description:
+        'Point your camera at a Groestlcoin ShockWizard QR Code to set your IP',
     }
   }
 
